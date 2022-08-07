@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,400&display=swap");
+body {
+  background: url(../images/bg-intro-desktop.png) no-repeat #ff7a7a;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 120px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 375px) {
+  body main {
+    padding: 60px;
+  }
+}
+
+body main .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 375px) {
+  body main .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+body main .wrapper .content-section {
+  padding: 46px;
+}
+
+body main .wrapper .content-section .title h1 {
+  margin: 0;
+  color: #fff;
+  line-height: 51px;
+  margin-bottom: 24px;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 375px) {
+  body main .wrapper .content-section .title h1 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+body main .wrapper .content-section .copy p {
+  margin: 0;
+  color: #fff;
+}
+
+@media screen and (max-width: 375px) {
+  body main .wrapper .content-section .copy p {
+    text-align: center;
+  }
+}
+
+body main .wrapper .form-section .trial-section p {
+  color: #fff;
+  font-weight: lighter;
+  background-color: #3e3c49;
+  width: 315px;
+  height: 30px;
+  padding: 3px 32px 1px 32px;
+  font-size: 13px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 375px) {
+  body main .wrapper .form-section .trial-section p {
+    width: 290px;
+    height: 57px;
+    padding: 30px;
+    font-size: 20px;
+  }
+}
+
+body main .wrapper .form-section .trial-section p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+body main .wrapper .form-section .form {
+  background: #fff;
+  padding: 18px;
+  border-radius: 4px;
+}
+
+body main .wrapper .form-section .form form input {
+  width: 99%;
+  height: 50%;
+  height: 36px;
+  margin-bottom: 12px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+body main .wrapper .form-section .form form [type="submit"] {
+  border: none;
+  background-color: #38cc8c;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+body main .wrapper .form-section .form form [type="text"]::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  padding: 23px;
+}
+
+body main .wrapper .form-section .form form [type="text"]:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  padding: 23px;
+}
+
+body main .wrapper .form-section .form form [type="text"]::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  padding: 23px;
+}
+
+body main .wrapper .form-section .form form [type="text"]::placeholder {
+  font-family: "Poppins", sans-serif;
+  padding: 23px;
+}
+
+body main .wrapper .form-section .form form [type="text"]:active {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+body main .wrapper .form-section .form form [type="email"]::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  padding: 23px;
+}
+
+body main .wrapper .form-section .form form [type="email"]:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  padding: 23px;
+}
+
+body main .wrapper .form-section .form form [type="email"]::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  padding: 23px;
+}
+
+body main .wrapper .form-section .form form [type="email"]::placeholder {
+  font-family: "Poppins", sans-serif;
+  padding: 23px;
+}
+
+body main .wrapper .form-section .form form [type="email"]:active {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+body main .wrapper .form-section .form form [type="password"]::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  padding: 23px;
+}
+
+body main .wrapper .form-section .form form [type="password"]:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  padding: 23px;
+}
+
+body main .wrapper .form-section .form form [type="password"]::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  padding: 23px;
+}
+
+body main .wrapper .form-section .form form [type="password"]::placeholder {
+  font-family: "Poppins", sans-serif;
+  padding: 23px;
+}
+
+body main .wrapper .form-section .form form [type="password"]:focus {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+body main .wrapper .form-section .form form p {
+  font-size: 9px;
+}
+
+body main .wrapper .form-section .form form p a {
+  text-decoration: none;
+  color: #ff7a7a;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */

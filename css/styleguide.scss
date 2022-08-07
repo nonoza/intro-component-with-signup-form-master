@@ -1,0 +1,23 @@
+//Responsive
+$mobilewidth : 375px;
+$desktop : 1440px;
+
+//Colors
+$red: hsl(0, 100%, 74%) ;
+$green: hsl(154, 59%, 51%);
+
+//Accent
+$blue : hsl(154, 59%, 51%);
+
+//Neatral 
+$darkBlue: hsl(249, 10%, 26%);
+$grayishBlue : hsl(246, 25%, 77%);
+$white :#fff;
+
+//bodycopy
+$bodyFont:16px;
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,400&display=swap');
+
+$bodyFontFamily : 'Poppins', sans-serif;

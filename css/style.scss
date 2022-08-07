@@ -1,0 +1,152 @@
+@import 'styleguide.scss';
+
+body{
+     background: url(../images/bg-intro-desktop.png) no-repeat  $red;
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 120px;
+        font-family: $bodyFontFamily;
+        font-size: $bodyFont;
+        @media screen and (max-width: $mobilewidth){
+        padding: 60px;
+        }
+        .wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            @media screen and (max-width: $mobilewidth){
+               flex-direction: column; 
+            }
+            .content-section{
+                padding: 46px;
+                .title{
+                    h1 {
+                        margin: 0;
+                        color: $white;
+                        line-height: 51px;
+                        margin-bottom: 24px;
+                        font-size: 50px;
+                        @media screen and (max-width: $mobilewidth){
+                            text-align: center;
+                            font-size: 30px;
+                            line-height: 40px;
+                        }
+                    }
+                    
+                }
+                .copy {
+                    p {
+                        margin: 0;
+                        color: $white;
+                        @media screen and (max-width: $mobilewidth){
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+            .form-section {
+                .trial-section {
+                   
+                    p{
+                        color: $white;
+                        font-weight: lighter;
+                        background-color: $darkBlue;
+                        width: 315px;
+                        height: 30px;
+                        padding: 3px 32px 1px 32px;
+                        font-size: 13px;
+                        text-align: center;
+                        border-radius: 4px;
+                        @media screen and (max-width: $mobilewidth){
+                            width: 290px;
+                            height: 57px;
+                            padding: 30px;
+                            font-size: 20px;
+                        }
+                        
+                        a {
+                            color: $white;
+                            text-decoration: none;
+                            font-weight:700;
+                        }
+                    }
+                   
+                }
+                .form {
+                    background: $white;
+                    padding: 18px;
+                    border-radius: 4px;
+                    form {
+                        input {
+                            width: 99%;
+                            height: 50%;
+                            height: 36px;
+                            margin-bottom: 12px;
+                            border: 1px solid;
+                            border-radius: 4px;
+
+                          
+                          
+                        }
+                        [type="submit"] {
+                            border: none;
+                            background-color: $green;
+                            color: $white;
+                            text-transform: uppercase;
+                            font-family: $bodyFontFamily;
+                            letter-spacing: 1px;
+                            cursor: pointer;
+                        }
+                        [type="text"] {
+                            &::placeholder {
+                                font-family: $bodyFontFamily;
+                                padding: 23px;
+                            }
+                            &:active {
+                                font-family: $bodyFontFamily; 
+                                font-weight: 700;
+                                
+                            }
+                            
+                        }
+                        [type="email"] {
+                            &::placeholder {
+                                font-family: $bodyFontFamily;
+                                padding: 23px;
+                            }
+                            &:active {
+                                font-family: $bodyFontFamily; 
+                                font-weight: 700;
+                                
+                            }
+                            
+                        }
+                        [type="password"] {
+                            &::placeholder {
+                                font-family: $bodyFontFamily;
+                                padding: 23px;
+                            }
+                            &:focus {
+                                font-family: $bodyFontFamily; 
+                                font-weight: 700;
+                                
+                            }
+                        }
+                        p {
+                            font-size: 9px;
+                            a {
+                                text-decoration: none;
+                                color: $red;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

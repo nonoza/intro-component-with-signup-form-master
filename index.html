@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css"/>
+   
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+ <main class="background">
+  <div class="wrapper">
+    <div class="content-section">
+      <div class="title">
+        <h1>Learn to code by watching others</h1>
+      </div>
+      <div class="copy">
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable. </p>
+      </div>
+    </div>
+    <div class="form-section">
+      <div class="trial-section">
+        <p><a href="#">Try it free 7 days</a> then $20/mo. thereafter</p>
+      </div>
+      <div class="form">
+        <form id ="form" method="get" name="signup" >
+          <input type="text"  placeholder="First Name " name="firstname" class="firstname"/>
+          <input type="text"  placeholder="Last Name" name="lastname" class="lastname"/>
+          <input type="email"  placeholder=" Email Address" name="email" class="email"/>
+          <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" name="password" placeholder="Password" class="password"/>
+          <input type="submit" value="Claim your free trial" class="cta" />
+          <small></small>
+          <p> By clicking the button, you are agreeing to our <a href ="#">Terms and Services</a></p>
+        </form>
+        <small></small>
+      </div>
+    </div>
+  </div>
+ </main>
+
+ <script src="js/script.js"></script>
+</body>
+</html>
